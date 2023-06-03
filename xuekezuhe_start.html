@@ -67,11 +67,42 @@
 				</div>
 			</div>
 			<div class="chaxun"><a href="xuekezuhe.html"><button>查询</button></a></div>
+			
+			<!-- 弹窗 -->
+			<div class="alert"></div>
 		</div>
 		
 		<script src="js/mui.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript">
 			mui.init()
+			
+		</script>
+		<script>
+			var selected = 0;
+			
+			$(document).ready(function(){
+				$("input[name='xuanke4-2']").each(function() {
+					//设置点击方法
+					$(this).click(function(){
+						//原来为未选中态，现在切换为选中态，先判断再决定是否切换
+						if($(this).is(":checked")){
+							//如果已满，则提示
+							if(selected >= 2){
+								$(this).prop("checked", false);
+								$('.alert').html('选择科目已满，请先取消一个').addClass('alert-success').show().delay(2000).fadeOut();
+							}
+							else{
+								selected = selected + 1;
+							}
+						}
+						//原来为选中态，现在取消选中，selected-1
+						else{
+							selected = selected - 1;
+						}
+					})
+				})
+			})
 		</script>
 	</body>
 
