@@ -99,3 +99,23 @@
 	color: white;
 	background-color: #61a9f2;
 }
+
+/* 弹窗 */
+.alert {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 214px;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	font-size: 14px;
+}
+.alert-success {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
