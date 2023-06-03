@@ -1,0 +1,113 @@
+.mui-bar-nav{
+	background-color: #4e85f0;
+/* #43CBFF */
+}
+.mui-bar-nav .mui-icon-left-nav{
+	color: white;
+}
+.mui-bar-nav .mui-title{
+	color: white;
+}
+
+.zhuanye-title{
+	padding: 10px 13px 0;
+	background-color: white;
+}
+.zhuanye-title .name{
+	font-weight: bold;
+	font-size:20px;
+	padding: 10px 0 5px;
+}
+.zhuanye-title .xingzhi span{
+	font-size: 14px;
+	color: gray;
+}
+.zhuanye-title .shipin video{
+	width: 100%;
+	/* margin-top: 10px; */
+	margin-bottom: 5px;
+	border-radius: 5px;
+	height: 230px;
+}
+
+.zhuanye-xinxi{
+	font-size: 14px;
+	padding: 10px 13px;
+	padding-bottom: 15px;
+	margin-bottom: 7px;
+	background-color: white;
+}
+.zhuanye-xinxi .jianjie .jianjie-icon{
+	float: left;
+	width: 35px;
+	height: 20px;
+	margin-right: 5px;
+	border-radius: 5px;
+	background-color: #5d5de0;
+	text-align: center;
+	font-size: 13px;
+	line-height: 20px;
+	color: white;
+}
+.zhuanye-xinxi .xinxi-item{
+	clear: both;
+	margin: 10px 0;
+}
+.zhuanye-xinxi .xinxi-item .item-name{
+	padding-right: 15px;
+	float: left;
+	height:41px;
+	font-weight: bold;
+}
+
+.zhuanye-kaisheyuanxiao{
+	clear: both;
+	background-color: white;
+	padding: 15px 13px 0;
+	margin-bottom: 7px;
+}
+.zhuanye-kaisheyuanxiao .kaisheyuanxiao-title{
+	font-weight: bold;
+}
+.zhuanye-kaisheyuanxiao .kaisheyuanxiao-title .more a{
+	font-weight: normal;
+	font-size: 14px;
+	color: black;
+}
+.zhuanye-kaisheyuanxiao .kaisheyuanxiao-item{
+	padding: 15px 0px;
+	height: 80px;
+	font-size: 14px;
+	clear: both;
+}
+.zhuanye-kaisheyuanxiao .guodu{
+	height: 1px;
+	background-color: gray;
+	opacity: 0.2;
+}
+.zhuanye-kaisheyuanxiao .kaisheyuanxiao-item .xiaohui{
+	float: left;
+	width: 13%;
+	margin-right: 10px;
+}
+.zhuanye-kaisheyuanxiao .kaisheyuanxiao-item img{
+	width: 100%;
+}
+.zhuanye-kaisheyuanxiao .kaisheyuanxiao-item .main{
+	float: left;
+}
+.zhuanye-kaisheyuanxiao .kaisheyuanxiao-item .main .name{
+	font-weight: bold;
+	margin-top: -2px;
+	margin-bottom: 5px;
+}
+.zhuanye-kaisheyuanxiao .kaisheyuanxiao-item .main .biaoqian span{
+	display: inline-block;
+	padding: 0px 5px;
+	font-size: 12px;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	color: dimgray;
+}
+
+

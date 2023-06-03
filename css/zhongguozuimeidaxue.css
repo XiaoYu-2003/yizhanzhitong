@@ -1,0 +1,184 @@
+.mui-content{
+	padding: 0 13px;
+	padding-top: 0;
+	background-color: white;
+}
+.mui-bar-nav ~ .mui-content{
+	padding-top: 0;
+}
+
+/* 标题栏 */
+.mui-bar-nav{
+	vertical-align: middle;
+	background-color: white;
+	height: 49px;
+}
+.mui-bar .mui-icon{
+	padding-top: 12px;
+	color: black;
+}
+.mui-bar-nav .touxiang{
+	float: left;
+	display: inline-block;
+	width: 35px;
+	margin: 7.5px 10px;
+	line-height: 44px;
+	border-radius: 50%;
+}
+.mui-bar-nav .author{
+	float: left;
+	display: inline-block;
+	font-size: 15px;
+	line-height: 49px;
+}
+.mui-bar-nav .guanzhu{
+	display: inline-block;
+	margin-top: 12px;
+	margin-right: 15px;
+	height: 25px;
+	line-height: 11px;
+	border-radius: 15px;
+	color: orangered;
+	font-size: 12px;
+	border-color: orangered;
+}
+.mui-bar-nav .share{
+	line-height: 49px;
+}
+
+
+
+/* 轮播 */
+#lunbo{
+	background: transparent;
+	padding-top: 49px;
+}
+#lunbo .mui-slider-item{
+	
+}
+#lunbo .mui-slider-item img{
+	min-width: 100%;
+	width: 100%;
+	object-fit: contain;
+	background-color: white;
+	border-radius: 0px;
+}
+.mui-slider .mui-slider-loop{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+.tiezi-title{
+	padding-top: 15px;
+}
+.tiezi-content{
+	padding-top: 10px;
+}
+.tiezi-content p{
+	color: black;
+	font-size: 15px;
+	margin-bottom: 4px;
+}
+.tiezi-content .huati{
+	font-size: 15px;
+}
+.tiezi-content .bianji-time{
+	padding: 10px 0;
+	font-size: 12px;
+	color: darkgray;
+}
+.tiezi-content .guodu{
+	height: 1px;
+	background-color: gray;
+	transform: scaleY(0.2);
+}
+
+
+
+.tiezi-pinglun{
+	padding-top: 19px;
+}
+.pinglun-main{
+	
+}
+.pinglun-main .pinglun-top{
+	
+}
+.pinglun-main .pinglun-top .pinglun-num{
+	color: dimgray;
+	font-size: 14px;
+}
+.pinglun-main .pinglun-top .pinglun-fabiao{
+	padding-top: 10px;
+}
+.pinglun-main .pinglun-top .pinglun-fabiao img{
+	float: left;
+	display: inline-block;
+}
+.pinglun-main .pinglun-top .pinglun-fabiao input{
+	display: inline-block;
+	width: 80%;
+	height: 33px;
+	margin-top: 1px;
+	margin-left: 15px;
+	border-radius: 15px;
+	font-size: 14px;
+}
+.pinglun-main .pinglun-bottom{
+	
+}
+.pinglun-main .pinglun-bottom .pinglun-item{
+	padding-top: 15px;
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-tx,
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .other-reviewer .other-tx{
+	float: left;
+}
+.pinglun-main .pinglun-top .pinglun-fabiao img,
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-tx img,
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .other-reviewer .other-tx img{
+	width: 35px;
+	border-radius: 50%;
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main,
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .other-reviewer-main{
+	margin-left: 48px;
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .name{
+	padding-bottom: 5px;
+	font-size: 14px;
+	color: gray;
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .main,
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .other-reviewer .other-reviewer-main .mian{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .main .main-content{
+	padding-right: 5px;
+	margin-bottom: 10px;
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .main .main-time,
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .main .main-IP,
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .other-reviewer .other-reviewer-main .main .main-time,
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .other-reviewer .other-reviewer-main .main .main-IP{
+	font-size: 12px;
+	color: gray;
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .other-reviewer .guodu{
+	height: 1px;
+	background-color: gray;
+	transform: scaleY(0.2);
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .other-reviewer .other-reviewer-main .main .name{
+	padding-left: 48px;
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-dianzan{
+	margin-top: -100px;
+}
+.pinglun-main .pinglun-bottom .pinglun-item .reviewer-main .other-reviewer .other-reviewer-dianzan{
+	margin-top: -45px;
+}

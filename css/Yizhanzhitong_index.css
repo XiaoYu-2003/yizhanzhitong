@@ -1,0 +1,227 @@
+html,
+body,
+.mui-content {
+	background-color: #ECF1FF;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+
+
+/* 标题栏 */
+#head {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	/* background:-webkit-linear-gradient(top, #4E84F6, #98AFFF, white); */
+	height: 300px;
+	background-size: 100%;
+	/* background-image: linear-gradient( 135deg, #C2FFD8 10%, #465EFB 100%, #fff 100%); */
+	background-image: linear-gradient(to top, #ECF1FF, rgba(255, 255, 255, 0)), url("../images/head9.jpg");
+	z-index: 0;
+}
+.mui-bar {
+	position: relative;
+}
+#head .logo {
+	padding-top: 10px;
+}
+#head .logo img {
+	width: 160px;
+}
+#head .mui-search {
+	width: 100%;
+	/* border: 1px solid hsla(0,0%,100%,.6); */
+	height: 53px;
+}
+#head .mui-search input {
+	height: 33px;
+	margin-top: 5px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 1px;
+
+}
+#head .mui-input-clear {
+	background-color: white;
+	border-radius: 25px;
+	vertical-align: middle;
+}
+#head .mui-search .mui-placeholder {
+	line-height: 42px;
+	text-align: left;
+	margin-left: 25px;
+	font-size: 14px;
+}
+#head .mui-search .mui-placeholder .mui-icon {
+	float: right;
+	line-height: 42px;
+	margin-right: 25px;
+	padding: 0;
+}
+
+
+
+/* 轮播图 */
+#lunbo {
+	z-index: 10000;
+	background: transparent;
+	margin-top: -240px;
+}
+#lunbo .mui-slider-item {
+	padding: 10px;
+}
+#lunbo .mui-slider-item img {
+	border-radius: 12px;
+	box-shadow:
+		0 1px 1px hsl(0deg 0% 0% / 0.075),
+		0 2px 2px hsl(0deg 0% 0% / 0.075),
+		0 4px 4px hsl(0deg 0% 0% / 0.075),
+		0 8px 8px hsl(0deg 0% 0% / 0.075),
+		0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+#lunbo .mui-slider-indicator {
+	position: relative;
+}
+#lunbo .mui-slider-indicator .mui-indicator {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	margin-left: 3px;
+	margin-right: 3px;
+	background-color: #a0cde5;
+}
+#lunbo .mui-slider-indicator .mui-active {
+	width: 11px;
+	border-radius: 10px;
+	background-color: #1383c2;
+}
+
+
+
+/* 主要内容 */
+#main .main-list{
+	padding: 0 15px;
+}
+#main .list-item{
+	margin: 10px 0;
+	padding: 15px;
+	background-color: blue;
+	text-decoration: none;
+	list-style: none;
+	border-radius: 5px;
+	background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+}
+#main .list-item h4,
+#main .list-item p{
+	padding: 0;
+	margin: 0;
+}
+#main .list-item p{
+	padding-top: 5px;
+	color: black;
+}
+
+
+
+/* 推荐视频 */
+.tuijian{
+	margin-bottom: 73px;
+}
+.tongyong-title {
+	padding: 10px 15px 7px;
+}
+.tongyong-title .fuzhu {
+	display: inline-block;
+	margin-right: 8px;
+	width: 2.5px;
+	height: 18px;
+	background-color: #1383c2;
+	border-radius: 10px;
+	vertical-align: bottom;
+}
+.tongyong-title .title {
+	display: inline-block;
+	font-weight: bold;
+}
+.tuijian .tuijian-list{
+	padding: 5px 10px 0 15px;
+	margin: 0;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+.tuijian .tuijian-list .list-item{
+	text-decoration: none;
+	list-style: none;
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	height: 168px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.tuijian .tuijian-list .list-item img{
+	width: 100%;
+	height: 90px;
+	object-fit: cover;
+	border-radius: 5px 5px 0 0;
+}
+.tuijian .tuijian-list .list-item .name{
+	color: black;
+	font-size: 13.5px;
+	margin-bottom: 0;
+	padding: 0 8px;
+	height: 43px;
+	
+	overflow : hidden;				/*必须结合的属性,当内容溢出元素框时发生的事情*/
+	text-overflow: ellipsis;		/*可以用来多行文本的情况下，用省略号“…”隐藏超出范围的文本 。*/
+	display: -webkit-box;			/*必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 。*/
+	-webkit-line-clamp: 2;			/*用来限制在一个块元素显示的文本的行数。*/
+	-webkit-box-orient: vertical;
+	
+}
+.tuijian .tuijian-list .list-item .laiyuan{
+	color: #474747;
+	font-size: 12px;
+	padding: 0 8px 0 0;
+	color: #55557f;
+	transform: scale(0.9);
+	text-align: left;
+	
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+
+/* 底部导航栏 */
+#navbar {
+	width: 100%;
+	height: 63px;
+	border-color: white;
+	background-color: white;
+	z-index: 10000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+#navbar .mui-table-view-cell {
+	width: 20%;
+	padding: 0;
+	padding-top: 4px;
+	border: none;
+}
+#navbar .mui-table-view-cell .mui-media-body {
+	font-size: 12px;
+	margin: 0;
+	margin-top: 1px;
+	font-weight: normal;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell > a:not(.mui-btn){
+	padding: 0;
+}
+#navbar .mui-table-view-cell .mui-icon {
+	font-size: 32px;
+}
+#navbar div.mui-media-body.active{
+	color: #1383c2 !important;
+}

@@ -1,0 +1,75 @@
+.mui-bar-nav{
+	background-color: #4e85f0;
+/* #43CBFF */
+}
+.mui-bar-nav .mui-icon-left-nav{
+	color: white;
+}
+.mui-bar-nav .mui-title{
+	color: white;
+}
+
+.wenchuang,
+.jiaofu{
+	padding: 15px 10px 5px;
+	background-color: white;
+}
+
+
+/* 通用设置 */
+.title {
+	text-align: center;
+	padding-bottom: 3px;
+}
+.title span {
+	color: #2a2a2a;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.title .bianxiao {
+	font-weight: normal;
+	padding-left: 12px;
+	font-size: 12px;
+}
+.miaoshu {
+	text-align: center;
+	font-size: 14px;
+	color: gray;
+	padding-bottom: 5px;
+}
+ul {
+	padding: 0;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	/* ul中的内容不换行 */
+}
+ul li {
+	display: inline-block;
+	padding-right: 5px;
+}
+ul li img{
+	width: 160px;
+	height: 160px;
+	object-fit: cover;
+}
+ul li .shangpin-content{
+	padding: 10px 0;
+	font-size: 14.5px;
+}
+ul li .shangpin-content .juti{
+	padding: 2px 0;
+	font-size: 13px;
+	color: gray;
+}
+ul li .shangpin-content .price{
+	padding-top: 5px;
+	font-size: 17px;
+	color: red;
+}
+
+.guodu{
+	height: 8px;
+	background-color: #efeff4;
+}

@@ -1,0 +1,134 @@
+html,
+body{
+	background-color: white;
+}
+.mui-bar-nav{
+	background-color: #4e85f0;
+	box-shadow: none;
+}
+.mui-bar:before{
+	height: 0;
+	box-shadow: none;
+}
+.mui-bar:after{
+	height: 0;
+	box-shadow: none;
+}
+.mui-bar-nav .mui-title{
+	color: white;
+}
+
+
+/* tab标签 */
+.mui-slider-indicator, .mui-slider-indicator .mui-scroll{
+	height: 45px !important;
+	background-color: white;
+}
+.mui-scroll .mui-control-item{
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+}
+.mui-segmented-control-negative.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color: #4e85f0;
+	font-weight: bold;
+	border-color: unset;
+	border: none;
+	border-bottom: 2px solid #4e85f0;
+}
+
+
+.mui-control-content{
+	margin-bottom: 73px;
+}
+
+
+/* 视频 */
+#m1 .video-list{
+	margin: 0;
+	padding: 0;
+	padding: 0 5px;
+}
+#m1 .video-list .list-item{
+	float: left;
+	width: 47.2%;
+	margin: 5px 4px;
+	list-style: none;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#m1 .video-list .list-item video{
+	width: 100%;
+	height: 100%;
+	min-height: 107.73px;
+	border-radius: 5px 5px 0 0;
+	object-fit: cover;
+}
+#m1 .video-list .list-item .video-other{
+	padding: 0 10px 7px;
+}
+#m1 .video-list .list-item .video-other .date{
+	color: red;
+	font-size: 13px;
+}
+#m1 .video-list .list-item .video-other .title{
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+#m1 .video-list .list-item .video-other .other{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 13px;
+}
+#m1 .video-list .list-item .video-other .other .author{
+	color: gray;
+}
+#m1 .video-list .list-item .video-other .other .mui-icon{
+	font-size: 20px;
+}
+
+
+
+.mui-control-content{
+	background-color: white;
+	margin-bottom: 73px;
+	overflow: hidden;
+}
+
+
+/* 底部导航栏 */
+#navbar {
+	width: 100%;
+	height: 63px;
+	border-color: white;
+	background-color: white;
+	z-index: 1000000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+#navbar .mui-table-view-cell {
+	width: 20%;
+	padding: 0;
+	padding-top: 4px;
+	border: none;
+}
+#navbar .mui-table-view-cell .mui-media-body {
+	font-size: 12px;
+	margin: 0;
+	margin-top: 1px;
+	font-weight: normal;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell > a:not(.mui-btn){
+	padding: 0;
+}
+#navbar .mui-table-view-cell .mui-icon {
+	font-size: 32px;
+}
+#navbar div.mui-media-body.active{
+	color: #1383c2 !important;
+}
+

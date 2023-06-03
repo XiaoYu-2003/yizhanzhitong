@@ -1,0 +1,456 @@
+*{
+	font-size: 15px;
+}
+body{
+	background-color: #fff;
+}
+a{
+	color: black;
+}
+
+.mui-bar-nav{
+	background-color: #4e85f0;
+	box-shadow: none;
+}
+.mui-bar-nav .mui-title{
+	color: white;
+}
+.mui-bar-nav .mui-icon{
+	color: white;
+}
+
+/* 通用分割线 */
+.divide{
+	background-color: #fff;
+}
+.in{
+	margin: auto;
+	width: 95%;
+	height: 1px;
+	background-color: #474747;
+	transform: scaleY(0.1);
+	opacity: 0.5;
+}
+.vertical-divide{
+	margin: 0 5px;
+	margin-top: 20px;
+	height: 40px;
+	width: 1px;
+	background-color: lightgray;
+	transform: scaleX(0.1);
+	opacity: 0.3;
+}
+.vertical-divide2{
+	margin: 0 0px;
+	margin-top: -10px !important;
+	height: 25px;
+	width: 1px;
+	background-color: #393939;
+	transform: scaleX(0.1);
+}
+
+
+/* 专业名称 */
+.major{
+	color: #3a3a3a;
+	padding: 20px 15px 10px;
+	background-color: #fff;
+}
+.major .name{
+	font-weight: bold;
+	font-size: 18px;
+}
+.major .belong{
+	padding: 5px 0 0px;
+	color: gray;
+}
+
+
+/* 主要信息 */
+.main-info{
+	color: #3a3a3a;
+	background-color: #fff;
+}
+.main-info ul{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border: none;
+	padding-left: 10px;
+}
+.main-info ul li{
+	padding: 15px 5px;
+	list-style: none;
+	float: left;
+}
+.main-info .value{
+	font-weight: bold;
+	font-size: 17px;
+}
+.main-info .name{
+	padding-top: 5px;
+	font-size: 13.5px;
+	color: darkgray;
+}
+
+
+/* 其他信息 */
+.other-info{
+	padding: 10px 15px;
+	color: gray !important;
+	background-color: #fff;
+}
+.other-info a{
+	float: right;
+	font-size: 13px;
+	color: orange;
+}
+
+
+/* 搜索框 */
+.mui-search{
+	padding: 0 10px 10px;
+	background-color: #fff;
+}
+.mui-search input[type='search']{
+	margin: 0;
+	background-color: #fff;
+	border: 1px solid #f0f0f0;
+	border-radius: 15px;
+}
+.mui-search .mui-placeholder{
+	padding-left: 25px;
+	border-radius: 30px;
+	text-align: left;
+}
+.mui-search .mui-placeholder span{
+	padding-right: 8px;
+	font-size: 14px !important;
+}
+
+
+/* 选择 */
+.mui-segmented-control {
+	padding-top: 8px;
+	border: 1px solid #f0f0f0;
+	border-left: none;
+	border-right: none;
+	background-color: #f8f8f8;
+}
+.mui-segmented-control .mui-control-item {
+	padding-top: 3px;
+	display: inline-block;
+	width: 30%;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 5px;
+	border: none;
+	color: #474747;
+	opacity: 0.8;
+	/* font-size: 14px; */
+}
+.mui-segmented-control .mui-control-item.mui-active{
+	background-color: unset;
+	color: black;
+}
+.mui-segmented-control .mui-control-item .mui-icon{
+	font-size: 14px;
+	padding-left: 3px;
+}
+
+
+/* 院校位置 */
+#position-menu{
+	height: 500px;
+	background-color: #fff;
+}
+#position-menu .popoverheader{
+	padding: 15px 15px;
+	height: 50px;
+	font-weight: bold;
+}
+#position-menu .popoverheader .text{
+	
+}
+#position-menu .popoverheader img{
+	width: 15px;
+	height: 100%;
+}
+#position-menu .mui-input-group{
+	/* margin-right: 0rem;
+	margin-left: 0rem; */
+	overflow: hidden;
+	padding: 10px 10px 15px;
+}
+/* 主要内容 */
+#position-menu ul{
+	margin: 0;
+	padding: 0;
+}
+#position-menu .item {
+	width: calc(100% / 5);
+	height: 44px;
+	line-height: 44px;
+	font-size: 15px;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+#position-menu .item .type {
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 15px;
+	display: block;
+}
+#position-menu .radio {
+	position: absolute;
+	top: -9999px;
+}
+#position-menu .item .type span {
+	height: 34px;
+	line-height: 34px;
+	display: block;
+	margin: 2px 4px;
+	font-size: 14px;
+	color: dimgray;
+	position: relative;
+	border-radius: 5px;
+	background-color: rgba(232, 228, 228, 0.5);
+}
+#position-menu .item .radio:checked~span {
+	color: #61a9f2;
+	background-color: rgba(181, 215, 249, 0.3);
+}
+.mui-popover.mui-popover-action .mui-table-view{
+	background-color: white;
+	padding-top: 10px;
+}
+#position-menu .next button{
+	width: 80%;
+	height: 40px;
+	border-radius: 25px;
+	border: none;
+	background-color: powderblue;
+	color: white;
+}
+
+
+/* 办学性质 */
+#xingzhi-menu{
+	height: 280px;
+	background-color: #fff;
+}
+#xingzhi-menu .popoverheader{
+	padding: 15px 15px;
+	height: 50px;
+	font-weight: bold;
+}
+#xingzhi-menu .popoverheader .text{
+	
+}
+#xingzhi-menu .popoverheader img{
+	width: 15px;
+	height: 100%;
+}
+#xingzhi-menu .mui-input-group{
+	/* margin-right: 0rem;
+	margin-left: 0rem; */
+	overflow: hidden;
+	padding: 10px 10px 15px;
+}
+/* 主要内容 */
+#xingzhi-menu ul{
+	margin: 0;
+	padding: 0;
+}
+#xingzhi-menu .item {
+	height: 44px;
+	line-height: 44px;
+	font-size: 15px;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+#xingzhi-menu .item .type {
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 15px;
+	display: block;
+}
+#xingzhi-menu .radio {
+	position: absolute;
+	top: -9999px;
+}
+#xingzhi-menu .item .type span {
+	padding: 0 18px;
+	height: 34px;
+	line-height: 34px;
+	display: block;
+	margin: 2px 4px;
+	font-size: 14px;
+	color: dimgray;
+	position: relative;
+	border-radius: 5px;
+	background-color: rgba(232, 228, 228, 0.5);
+}
+#xingzhi-menu .item .radio:checked~span {
+	color: #61a9f2;
+	background-color: rgba(181, 215, 249, 0.3);
+}
+.mui-popover.mui-popover-action .mui-table-view{
+	background-color: white;
+	padding-top: 10px;
+}
+#xingzhi-menu .next button{
+	width: 80%;
+	height: 40px;
+	border-radius: 25px;
+	border: none;
+	background-color: powderblue;
+	color: white;
+}
+
+
+/* 院校类型 */
+#leixing-menu{
+	height: 323px;
+	background-color: #fff;
+}
+#leixing-menu .popoverheader{
+	padding: 15px 15px;
+	height: 50px;
+	font-weight: bold;
+}
+#leixing-menu .popoverheader .text{
+	
+}
+#leixing-menu .popoverheader img{
+	width: 15px;
+	height: 100%;
+}
+#leixing-menu .mui-input-group{
+	/* margin-right: 0rem;
+	margin-left: 0rem; */
+	overflow: hidden;
+	padding: 10px 10px 15px;
+}
+/* 主要内容 */
+#leixing-menu ul{
+	margin: 0;
+	padding: 0;
+}
+#leixing-menu .item {
+	width: calc(100% / 5);
+	height: 44px;
+	line-height: 44px;
+	font-size: 15px;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+#leixing-menu .item .type {
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 15px;
+	display: block;
+}
+#leixing-menu .radio {
+	position: absolute;
+	top: -9999px;
+}
+#leixing-menu .item .type span {
+	height: 34px;
+	line-height: 34px;
+	display: block;
+	margin: 2px 4px;
+	font-size: 14px;
+	color: dimgray;
+	position: relative;
+	border-radius: 5px;
+	background-color: rgba(232, 228, 228, 0.5);
+}
+#leixing-menu .item .radio:checked~span {
+	color: #61a9f2;
+	background-color: rgba(181, 215, 249, 0.3);
+}
+.mui-popover.mui-popover-action .mui-table-view{
+	background-color: white;
+	padding-top: 10px;
+}
+#leixing-menu .next button{
+	width: 80%;
+	height: 40px;
+	border-radius: 25px;
+	border: none;
+	background-color: powderblue;
+	color: white;
+}
+
+
+/* 院校列表 */
+.mui-table-view .mui-media .xiaohui{
+	float: left;
+	display: block;
+	margin-right: 13px;
+}
+.mui-table-view .mui-media img{
+	width: 60px;
+	height: 100%;
+}
+.mui-table-view .mui-media-object{
+	max-width: unset;
+}
+.mui-table-view-cell > a:not(.mui-btn){
+	padding: 10px 15px;
+}
+.mui-media{
+	padding-top: 15px;
+	font-weight: 600;
+	font-size: 18px;
+}
+.mui-media-body p{
+	font-weight: 400;
+	color: black;
+	margin: 5px 0;
+	font-size: 13px;
+} 
+.label{
+	display: inline-block;
+	margin-top: 2px;
+	padding: 0 5px;
+	border-radius: 3px;
+	font-size: 13px;
+	font-weight: 400;
+	color: black;
+	border: 1px solid lightgray;
+	opacity: 0.7;
+	/* background-color: rgba(232, 228, 228, 1); */
+}
+.ziliao span{
+	font-size: 13px;
+}
+.zhuanye{
+	padding: 8px 0;
+	color: gray;
+	font-weight: normal;
+}
+.zhuanye div{
+	font-size: 13px !important;
+}
+.zhuanye .zhuanye-name{
+	padding-bottom: 3px;
+}
+.zhuanye .qiangdiao1{
+	font-size: 13px !important;
+	color: orange;
+}
+.zhuanye .qiangdiao2{
+	font-size: 13px !important;
+	color: #04eab1;
+}

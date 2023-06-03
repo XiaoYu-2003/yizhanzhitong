@@ -1,0 +1,132 @@
+.mui-bar-nav{
+	background-color: white;
+}
+.mui-bar-nav .mui-icon{
+	color: black;
+}
+.mui-bar-nav .mui-title{
+	color: black;
+}
+
+
+.mui-content{
+	position: unset;
+}
+/* 封面图片 */
+.fengmian{
+	position: unset;
+	height: 230px;
+}
+.fengmian img{
+	width: 100%;
+	object-fit: cover;
+}
+
+.main{
+	position: relative;
+	z-index: 1000000;
+	margin-top: -10px;
+	padding-top: 1px;
+	border: none;
+	border-radius: 10px 10px 0 0;   /* ???? */
+	background-color: #f1f1f1;
+}
+.main .zhidaoyu{
+	padding: 13px 18px 0;
+	font-size: 13px;
+	color: gray;
+}
+.timu{
+	position: relative;
+	/* margin-top: 10px; */
+	background-color: #efeff4;
+	border: unset;
+}
+.timu-item{
+	margin: 20px 15px;
+	padding: 19px 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	border-radius: 10px;
+	background-color: white;
+}
+.timu-item .item-name h4{
+	padding-bottom: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-size: 17px;
+}
+.timu-item .item-name p{
+	margin: 0;
+	padding-left: 20px;
+	color: black;
+	font-size: 14.5px;
+}
+.timu-item .mui-input-group{
+	position: unset;
+	overflow: hidden;
+	padding: 10px 10px 15px;
+}
+.timu-item .mui-input-group:before{
+	height:0;
+}
+.timu-item .mui-input-group:after{
+	height:0;
+}
+
+/* 主要内容 */
+.timu-item ul{
+	margin: 0;
+	padding: 0;
+	margin: 0 10px;
+}
+.timu-item .item {
+	margin: 10px 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	overflow: hidden;
+	/* background-color: rgba(232, 228, 228, 0.5); */
+}
+.timu-item .item .type {
+	/* height: 41px;
+	line-height: 41px; */
+	/* background-color: #fff; */
+	/* font-size: 15px; */
+	/* display: block; */
+}
+.timu-item .radio {
+	position: absolute;
+	top: -9999px;
+}
+.timu-item .item .type span {
+	width: 100%;
+	padding-left: 20px;
+	line-height: 37px;
+	display: inline-block;
+	font-size: 14px;
+	color: black;
+	border-radius: 25px;
+	border: 1px solid rgba(194, 194, 194, 0.5);
+}
+.timu-item .item .radio:checked~span {
+	color: #61a9f2;
+	border-color: #61a9f2;
+	background-color: rgba(181, 215, 249, 0.3);
+}
+
+
+/* 提交按钮 */
+.tijiao{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.tijiao button{
+	width: 90%;
+	height: 40px;
+	background-color: #4e85f0;
+	border-radius: 5px;
+	border: 0;
+	color: white;
+}

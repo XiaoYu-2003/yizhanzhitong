@@ -1,0 +1,91 @@
+.mui-bar-nav{
+	background-color: #4e85f0;
+	box-shadow: none;
+}
+.mui-bar-nav .mui-title{
+	color: white;
+}
+.mui-bar-nav .mui-icon{
+	color: white;
+}
+
+/* 搜索 */
+.sousuo{
+	text-align: center;
+}
+.sousuo h4{
+	padding-top: 50px;
+	font-size: 19px;
+	text-align: center;
+	font-weight: normal;
+}
+.sousuo .mui-search {
+	margin-top: 20px;
+	width: 100%;
+	height: 53px;
+	display: inline-block;
+}
+.sousuo .mui-search input {
+	width: 90%;
+	height: 40px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.sousuo .mui-input-clear {
+	background-color: white;
+	border-radius: 25px;
+	vertical-align: middle;
+}
+.sousuo .mui-search .mui-placeholder {
+	line-height: 40px;
+	text-align: left;
+	margin-left: 45px;
+	font-size: 14px;
+}
+.sousuo .mui-search .mui-placeholder .mui-icon {
+	float: right;
+	line-height: 40px;
+	margin-right: 43px;
+	padding: 0;
+}
+
+
+/* 专业 */
+.zhuanye{
+	font-size: 15px;
+}
+.zhuanye .zhuanye-dalei .dalei-title{
+	font-weight: bold;
+	padding: 7px 16px;
+}
+.zhuanye .zhuanye-dalei .dalei-list{
+	color: dimgray;
+}
+.zhuanye .zhuanye-dalei .dalei-list .num{
+	margin-right: 25px;
+	font-size: 14.8px;
+}
+.zhuanye .zhuanye-dalei .zhuanye-juti{
+	padding: 0;
+}
+.zhuanye .zhuanye-dalei .zhuanye-juti .guodu{
+	height: 1px;
+	background-color: gray;
+	transform: scaleY(0.2);
+}
+.zhuanye .zhuanye-dalei .zhuanye-juti .juti-item{
+	padding: 10px 0 5px;
+	text-decoration: none;
+	list-style: none;
+}
+.zhuanye .zhuanye-dalei .zhuanye-juti .juti-item .juti-title{
+	color: black;
+}
+.zhuanye .zhuanye-dalei .zhuanye-juti .juti-item .juti-other{
+	padding-top: 5px;
+	color: gray;
+	font-size: 14px;
+}
+.zhuanye .zhuanye-dalei .zhuanye-juti .juti-item .juti-other .other-item{
+	padding-right: 5px;
+}

@@ -1,0 +1,169 @@
+html, body, .mui-content{
+	background-color: white;
+}
+
+.header{
+	height: 500px;
+	padding: 15% 6% 0;
+	background-image: linear-gradient(to top, white, rgba(255,255,255,0)),url("../images/person2.png");
+	background-size: cover;
+	/* background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%); */
+}
+.header .touxiang, .header .login-reg{
+	float: left;
+}
+.header .touxiang{
+	width: 17%;
+}
+.header .touxiang img{
+	margin-right: 5%;
+	width: 100%;
+	border-radius: 50%;
+}
+.header .login-reg{
+	width: 82%;
+	padding-top: 5%;
+	padding-left: 15px;
+}
+.header .login-reg a{
+	display: block;
+	float: left;
+	color: white;
+}
+.header .login-reg span a{
+	display: block;
+	float: right;
+	font-size: 13px;
+	color: ghostwhite;
+}
+.header .other{
+	clear: both;
+}
+.header .other div{
+	float: left;
+	padding-right: 35px;
+	margin: 10px 0;
+	text-align: center;
+}
+.header .other p{
+	margin-bottom: 8px;
+	color: black;
+	font-size: 15px;
+}
+.header .other a{
+	color: white;
+}
+
+.main{
+	clear: both;
+	margin-bottom: 60px;
+}
+.main-ziliao{
+	display: flex;
+	justify-content: space-around;
+	padding: 25px 0;
+	margin-top: -300px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+	background-color: white;
+	border-radius: 10px 10px 0 0;
+}
+.main-ziliao .main-ziliao-left,
+.main-ziliao .main-ziliao-right{
+	flex: 0 1 49%;
+	text-align: center;
+}
+.main-ziliao .main-ziliao-line{
+	background-color: #ebebeb;
+	flex: 0 1 1px;
+	margin: 5px 0;
+}
+.main-ziliao .name{
+	display: inline-block;
+	margin-top: 7px;
+	font-size: 15px;
+	color: black;
+}
+.main-ziliao .main-ziliao-icon{
+	width: 1.5em; 
+	height: 1.5em;
+} 
+
+/* .main-other{
+	margin-bottom: 20px;
+}
+.main-other .mui-table-view{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.main-other .mui-table-view .mui-table-view-cell{
+	border: none;
+}
+.main-other .main-other-icon{
+	width: 0.8em; 
+	height: 0.8em;
+}
+.main-other .mui-table-view .mui-table-view-cell{
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+.main-other .mui-table-view .mui-table-view-cell .mui-media-body{
+	font-size: 13px;
+} */
+
+/* .main-shezhi .other{
+	height: 37px;
+	line-height: 37px;
+	padding-left: 16px;
+	font-weight: lighter;
+	background-color: lightgray;
+	opacity: 0.4;
+	font-size: 15px;
+	color: black !important;
+} */
+.main-shezhi .mui-table-view{
+	font-size: 15px;
+	position: inherit;
+}
+.main-shezhi .mui-table-view-cell span{
+	display: inline;
+	vertical-align: middle;
+}
+.mui-table-view-cell .mui-navigate-right .main-shezhi-icon{
+	width: 1.13em;
+	height: 1.13em;
+	margin-right: 10px;
+	
+}
+
+
+#navbar {
+	width: 100%;
+	height: 63px;
+	border-color: white;
+	background-color: white;
+	z-index: 10000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+#navbar .mui-table-view-cell {
+	width: 20%;
+	padding: 0;
+	padding-top: 4px;
+	border: none;
+}
+#navbar .mui-table-view-cell .mui-media-body {
+	font-size: 12px;
+	margin: 0;
+	margin-top: 1px;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell > a:not(.mui-btn){
+	padding: 0;
+}
+#navbar .mui-table-view-cell .mui-icon {
+	font-size: 32px;
+}
+div.mui-media-body.active{
+	color: #1383c2 !important;
+}

@@ -1,0 +1,69 @@
+body, .mui-content{
+	background-color: white;
+}
+
+#head{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background:-webkit-linear-gradient(top, #C6CCDF, white);
+	height: 250px;
+}
+
+.mui-card{
+	z-index: 1000;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 12px;
+}
+.mui-card-header{
+	font-weight: bold;
+	margin-top: 8px;
+}
+.result-header{
+	padding: 10px 15px 20px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.mui-card-content{
+	padding: 0 15px;
+}
+.mui-card-content img{
+	border-radius: 12px;
+	width: 100%;
+}
+
+.mui-card .card-footer{
+	margin-top: 18px;
+	padding: 10px 15px 15px;
+}
+.result-footer-title{
+	font-size: 16px;
+	font-weight: 600;
+}
+.result-footer-content{
+	padding: 10px 0 0;
+	color: gray;
+}
+
+.more-again{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 92%;
+	border-radius: 12px;
+	background-color: #C6CCDF;
+	border: none;
+	font-size: 15px;
+	color: white;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+
+
+/* 去掉分割线 */
+.mui-card-header, .mui-card-footer{
+	position: unset;
+}

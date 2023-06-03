@@ -1,0 +1,109 @@
+.mui-bar-nav{
+	background-color: #4e85f0;
+	box-shadow: none;
+}
+.mui-bar-nav .mui-title{
+	color: white;
+}
+.mui-bar-nav .mui-icon{
+	color: white;
+}
+
+
+.zuhe{
+	margin: 15px 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+.zuhe .zuhe-title{
+	padding: 10px 15px;
+	font-size: 15px;
+	color: gray;
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.zuhe .zuhe-content{
+	padding: 22px 0;
+	text-align: center;
+}
+.zuhe .zuhe-content span{
+	display: inline-block;
+	padding: 5px 10px;
+	width: 60px;
+	color: white;
+	border-radius: 5px;
+	margin: 0 3px;
+}
+.zuhe .zuhe-content .shouxuan{
+	background-color: coral;
+}
+.zuhe .zuhe-content .zaixuan1,
+.zuhe .zuhe-content .zaixuan2{
+	background-color: aquamarine;
+}
+.zuhe .zuhe-content .jia{
+	width: 10px;
+	padding: 0;
+	margin: 0 5px;
+	color: black;
+}
+
+
+
+/* tab标签 */
+/* .mui-slider-indicator, .mui-slider-indicator .mui-scroll{
+	height: 45px !important;
+	background-color: white;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+	width: 100%;
+}
+.mui-scroll .mui-control-item{
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+	padding: 0;
+	margin: 0 7%;
+}
+.mui-segmented-control-negative.mui-segmented-control-inverted .mui-control-item.mui-active{
+	
+} */
+
+#m1{
+	font-size: 14px;
+	background-color: white;
+}
+#m1 table{
+	width: 100%;
+	text-align: center;
+	border: 1px solid gray;
+}
+#m1 table th,
+#m1 table td{
+	padding: 10px 0;
+	border: 1px solid rgba(194, 194, 194, 0.25);
+	color: #606060;
+}
+
+/* 
+#m2{
+	padding: 5px 0;
+	font-size: 14px;
+	background-color: white;
+}
+#m2 table{
+	width: 100%;
+	text-align: center;
+	border: 1px solid gray;
+}
+#m2 table th,
+#m2 table td{
+	padding: 10px 0;
+	border: 1px solid rgba(194, 194, 194, 0.25);
+	color: #606060;
+}
+#m2 table th{
+	padding-left: 7px;
+	padding-right: 7px;
+} */

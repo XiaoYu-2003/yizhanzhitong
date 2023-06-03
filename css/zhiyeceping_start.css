@@ -1,0 +1,118 @@
+.mui-bar-nav{
+	background-color: #4e85f0;
+}
+.mui-bar-nav .mui-icon{
+	color: white;
+}
+.mui-bar-nav .mui-title{
+	color: white;
+}
+
+.mui-content{
+	background-color: white;
+}
+
+/* 封面图片 */
+.fengmian img{
+	width: 100%;
+	object-fit: cover;
+}
+
+.main{
+	padding: 15px;
+}
+.main .ceping-title .title{
+	padding-bottom: 6px;
+	font-weight: 500;
+	font-size: 19px;
+}
+.main .ceping-title .other{
+	font-size: 13px;
+	color: gray;
+}
+.main .ceping-title .other span{
+	padding-right: 10px;
+}
+.main .ceping-title .zuozhe{
+	margin: 6px 0;
+	padding: 5px;
+	width: 110px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 3px;
+	background-color: blue;
+	color: white;
+}
+
+
+.main .jieshao{
+	padding: 10px 0;
+	font-size: 14px;
+	color: dimgray;
+}
+.main .tishi{
+	padding: 0 0 10px;
+	text-align: right;
+	font-size: 13px;
+	color: gray;
+}
+.main .anniu{
+	text-align: center;
+}
+.main .anniu .shoucang{
+	width: 18%;
+	height: 40px;
+	margin-right: 10px;
+}
+.main .anniu a{
+	display: inline-block;
+	width: 77%;
+	height: 40px;
+	background-color: #4e85f0;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.main .anniu .ceping{
+	width: 100%;
+	height: 40px;
+	background-color: #4e85f0;
+	color: white;
+	border: none;
+}
+
+.guodu{
+	height: 8px;
+	background-color: #f1f1f1;
+}
+
+
+.tuijian{
+	padding: 15px 2px 0px 15px;
+}
+.tuijian .tuijian-title{
+	font-size: 16px;
+	font-weight: bold;
+}
+.tuijian .tuijian-list{
+	padding: 0;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+.tuijian .tuijian-list .list-item{
+	text-decoration: none;
+	list-style: none;
+	float: left;
+	width: 33%;
+	padding-right: 8px;
+}
+.tuijian .tuijian-list .list-item img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.tuijian .tuijian-list .list-item .name{
+	color: black;
+	font-size: 13px;
+}

@@ -1,0 +1,252 @@
+body,
+.mui-content {
+	background-color: white;
+}
+
+/* 标题栏 */
+.mui-bar-nav{
+	background-color: #4e85f0;
+}
+.mui-bar-nav .mui-title{
+	color: white;
+}
+.mui-bar-nav .mui-icon{
+	color: white;
+}
+.mui-bar-nav .icon{
+	color: white;
+	margin-right: 8px;
+}
+
+/* 今日热聊 */
+.hot-topic{
+	margin: 13px;
+	border-radius: 10px;
+	/* background-color: gold; */
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.hot-topic .title{
+	padding: 10px 15px;
+	border-radius: 10px 10px 0 0;
+	background-color: #4e85f0;
+	font-weight: bold;
+	font-size: 16px;
+}
+.hot-topic .title a{
+	color: white;
+	font-style: italic;
+}
+.hot-topic .content{
+	padding: 0 15px 10px;
+	font-size: 15px;
+}
+.hot-topic .content .topic-item{
+	padding-top: 10px;
+}
+.hot-topic .content .topic-item span{
+	color: black;
+}
+.hot-topic .content .topic-item .item-name{
+	font-weight: bold;
+}
+.hot-topic .content .topic-item .item-name .mui-icon{
+	font-size: 20px;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.hot-topic .content .topic-item .item-peoplenum{
+	padding-left: 30px;
+	font-size: 14px;
+	color: darkgray;
+}
+
+/* 列表 */
+/* .mui-slider-indicator,
+.mui-slider-indicator .mui-scroll {
+	height: 45px !important;
+}
+.mui-scroll .mui-control-item {
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+	padding: 0 15px;
+	
+}
+.mui-segmented-control-negative.mui-segmented-control-inverted .mui-control-item.mui-active {
+	color: #4e85f0;
+	font-weight: bold;
+	border: none;
+
+} */
+/* .mui-control-item .tab_xuanzhong{
+	margin: 0 auto;
+	margin-top: -9px;
+	height: 5px;
+	width: 20px;
+	border-radius: 20px;
+	background-color: #87CEFA;
+	display: none;
+} */
+
+
+/* 热帖 */
+.container {
+	width: 97%;
+	margin: 0 auto;
+	padding-top: 9px;
+	margin-top: 1%;
+	margin-bottom: 1.5%;
+}
+.waterfall {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-gap: 1%;
+	-webkit-column-gap: 1%;
+	column-gap: 1%;
+}
+.item {
+	margin: 0 1.5%;
+	margin-bottom: 6%;
+	-moz-page-break-inside: avoid;
+	-webkit-column-break-inside: avoid;
+	break-inside: avoid;
+	border-radius: 5px;
+	background-color: white;
+	/* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.item img {
+	width: 100%;
+	margin-bottom: 5px;
+	border-radius: 5px 5px 0 0;
+}
+.item-title {
+	padding: 0 10px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #403c3c;
+}
+.publisher{
+	width: 100%;
+	height: 45px;
+}
+.publisher-touxiang {
+	width: 19% !important;
+	margin: 1px 8px 4px !important;
+	border-radius: 50% !important;
+	float: left;
+}
+.publisher-other{
+	width: 100% !important;
+	height: 100%;
+	
+}
+.publisher-context{
+	float: left;
+}
+.publisher-name {
+	font-size: 12px;
+	color: #3b3b3b;
+}
+.publisher-date{
+	margin-top: -4px;
+	font-size: 12px;
+	color: gray;
+}
+.publisher-zan{
+	text-align: right;
+	margin-right: 10px;
+	padding-top: 4%;
+}
+.publisher-zan .mui-icon{
+	font-size: 20px;
+}
+
+
+/* .mui-table-view{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.mui-table-view .mui-media-object{
+	width: 80px;
+	height: 80px;
+	max-width: none;
+	border-radius: 10px;
+	object-fit: cover;
+}
+.mui-table-view:before, .mui-table-view-cell:after {  
+	height: 0px!important;  
+}
+.mui-media-body{
+	font-weight: bold;
+	padding: 3px 0 0 0;
+}
+.mui-media-body .mui-ellipsis{
+	font-weight: 200;
+	
+	padding: 3px 0;
+}
+.start-ceshi{
+	padding: 3px 10px;
+	margin-top: -3px;
+	border-radius: 10px;
+	background-color: mediumpurple;
+	color: white;
+}
+.label{
+	margin-right: 5px;
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 13px;
+	color: white;
+	background-color: lightgray;
+	padding: 0px 6px;
+	border-radius: 3px;
+} */
+
+.mui-control-content{
+	margin-bottom: 73px;
+	color: black;
+}
+
+
+
+/* 底部导航栏 */
+#navbar {
+	width: 100%;
+	height: 63px;
+	border-color: white;
+	background-color: white;
+	z-index: 1000000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+#navbar .mui-table-view-cell {
+	width: 20%;
+	padding: 0;
+	padding-top: 4px;
+	border: none;
+}
+#navbar .mui-table-view-cell .mui-media-body {
+	font-size: 12px;
+	margin: 0;
+	margin-top: 1px;
+	padding: 0;
+	font-weight: normal;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell > a:not(.mui-btn){
+	padding: 0;
+}
+#navbar .mui-table-view-cell .mui-icon {
+	font-size: 32px;
+}
+#navbar div.mui-media-body.active{
+	color: #1383c2 !important;
+}
+

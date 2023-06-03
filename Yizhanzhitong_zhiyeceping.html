@@ -1,0 +1,339 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link href="css/Yizhanzhitong_zhiyeceping.css" rel="stylesheet" />
+		<script src="js/iconfont.js" type="text/javascript"></script>
+		<style type="text/css">
+			.icon {
+				width: 1em;
+				height: 1em;
+				vertical-align: -0.15em;
+				fill: currentColor;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">职业测评</h1>
+		</header>
+		
+		<div class="mui-content">
+			<!-- 轮播图 -->
+			<div id="lunbo" id="slider" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="images/lb4.jpg">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/lb1.jpg">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/lb2.jpg">
+						</a>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/lb3.jpg">
+						</a>
+					</div>
+					<!-- 第四张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/lb4.jpg">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="images/lb1.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			<!-- 滑动tab页面 -->
+			<div
+				class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-negative mui-scroll-wrapper mui-slider-indicator">
+			
+				<div class="mui-scroll">
+					<a href="#m1" class="mui-control-item mui-active">兴趣/性格</a>
+					<a href="#m2" class="mui-control-item">态度/能力</a>
+					<a href="#m3" class="mui-control-item">生涯/决策</a>
+				</div>
+			</div>
+			
+			<div class="mui-control-content mui-active" id="m1">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="zhiyeceping_start.html">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/1.jpg">
+							<div class="mui-media-body">
+								主动性人格测试
+								<button class="start-ceshi mui-pull-right" onclick='location.href=("zhiyeceping_start.html")'>开始测试</button>
+								<br>
+								<span class="label">人格</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">在团体组织中，你是那个会主动改变环境，为自己创造有利机会的人吗？你会采取有效行动及时解决问题吗？测一测了解你在工作中的人格倾向如何。</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/2.jpg">
+							<div class="mui-media-body">
+								职业兴趣测评
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">兴趣</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">职业和专业密切相关，专业产生于职业需求、因职业需求而确立，每个专业都有自身对应的职业方向，从这个意义上来说，选专业就是选职业，确定自身的专业方向更是一个人职业生涯的开端。</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/3.jpg">
+							<div class="mui-media-body">
+							    大五人格测试
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">人格</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">想知道你是怎样一个“特殊”的你吗，不妨借助测试来对自我探索一番，苏格拉底说，认识你自己，在所有的探索中自我探索总是让人着迷而又其乐无穷，还等什么，快点击马上开始吧！</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/4.jpg">
+							<div class="mui-media-body">
+							    测你的合作/竞争倾向
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">倾向</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">工作学习中你更善于团队合作还是独立完成任务？合作必不可少，竞争则是对自我发展的需求，两者并不冲突。想知道你的合作/竞争偏向吗，一试便知。</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mui-control-content" id="m2">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/5.jpg">
+							<div class="mui-media-body">
+								专业认同度测试
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">态度</span>
+								<span class="label">认同</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">不喜欢现在的专业？总觉得有哪里不够满意？上课的时候总是提不起劲？缺乏热情，浑浑噩噩却又不知该何去何从，来测测你的专业认同度吧，或许它能帮你厘清你迷茫困惑的现状，为你的下一步选择点一盏明灯。</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/6.jpg">
+							<div class="mui-media-body">
+								幸福指数测试
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">态度</span>
+								<span class="label">指数</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">关于什么是幸福，人类进行了上千年的思考，试图从各种途径阐释幸福的由来和获得幸福的方法，而现代社会，随着物质生活的满足和丰富，人们越来越关注精神的愉悦和满足，那么问题来了：你的幸福感如何？想知道吗，来测测看吧。</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/7.jpg">
+							<div class="mui-media-body">
+							    职业价值观测评
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">态度</span>
+								<span class="label">价值观</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">职业价值观是指当一个人面临职业选择的时候，他无论如何都不会放弃的职业中至关重要的东西。研究表明职业价值观是内心深处对自己的看法，它是自己的才干、价值观、动机经过自省后形成的，职业价值观可以指导、约束、或稳定个人的职业生涯。</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/8.jpg">
+							<div class="mui-media-body">
+							    自我觉察能力测试
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">能力</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">你的自我觉察处于何种水平呢？针对个人又有什么较好的方法进行自我监管呢？测试报告会给你答案。</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/9.jpg">
+							<div class="mui-media-body">
+							    科学研究能力测评
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">能力</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">科学研究是创新型人才不可缺少的核心素养之一，你是否具有这方面的潜质？一测便知！</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mui-control-content" id="m3">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/11.jpg">
+							<div class="mui-media-body">
+								测你的生涯控制点
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">生涯</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">归因指个体根据信息和线索对行为原因进行推测与判断。不同的归因方式决定了你对自我生涯的看法和行动，显然积极的归因方式更有利于个体或关系的发展。想知道你在生涯发展中是怎样的归因者吗，来测测看吧。</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/12.jpg">
+							<div class="mui-media-body">
+								最优化倾向测试
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">决策</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">当你做小的决定时，应当依靠你的大脑，把利弊罗列出来，分析并作出正确的决定；当你做大的决定，如寻找终身伴侣或寻找理想时，你就应该依靠你的潜意识，因为这么重要的决定必须在你的心灵深处找到依据。-弗洛伊德（精神分析学派，著有《梦的解析》）</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/13.jpg">
+							<div class="mui-media-body">
+							    测职业决策风格
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">决策</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">有人喜欢独立专断，有人喜欢依赖他人，有人喜欢收集信息，有人喜欢凭感觉做决定，有人爱做梦，有人喜务实，有人速战速决，有人延迟满足，你呢？</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/ceping/14.jpg">
+							<div class="mui-media-body">
+							    测你的生涯适应力
+								<button class="start-ceshi mui-pull-right">开始测试</button>
+								<br>
+								<span class="label">生涯</span>
+								<span class="label">高级测试</span>
+								<p class="mui-ellipsis">职业生涯是一个漫长的过程，也是一个动态的不断调整的过程，面对未来未知的职业长路，不妨从现在开始，认清自己，不断探索，为未来的职业之旅绘一份行路指南。</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<!-- 底部选项卡 -->
+			<ul id="navbar" class="mui-table-view mui-grid-view mui-grid-9">
+				<li class="mui-table-view-cell mui-media mui-col-xs-2 mui-col-sm-2">
+					<a href="Yizhanzhitong_index.html">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-zuixing-83"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">新高考</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-2 mui-col-sm-2">
+					<a href="Yizhanzhitong_shengyajiangtang.html">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-zuixing-85"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">生涯讲堂</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-2 mui-col-sm-2">
+					<a href="Yizhanzhitong_forum.html">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-zuixing-86"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">论坛</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-2 mui-col-sm-2">
+					<a href="#">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-zuixing-89"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body active">职业测评</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-2 mui-col-sm-2">
+					<a href="Yizhanzhitong_person.html">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-zuixing-87"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">我的</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<script src="js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			
+			//获得slider插件对象
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+				interval: 4000 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		</script>
+	</body>
+
+</html>
