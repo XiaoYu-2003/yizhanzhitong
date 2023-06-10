@@ -1,0 +1,270 @@
+html,
+body{
+	height: 100%;
+}
+.mui-content{
+	background: url("../images/zhiyuanmoni4.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+
+/* 标题栏 */
+.mui-bar-nav{
+	background-color: #4e85f0;
+}
+.mui-bar-nav .mui-title{
+	color: white;
+}
+.mui-bar-nav .mui-icon{
+	color: white;
+}
+.mui-bar-nav .icon{
+	color: white;
+	margin-right: 8px;
+}
+
+
+/* 轮播图 */
+#lunbo {
+	background: transparent;
+}
+#lunbo .mui-slider-item {
+	padding: 10px;
+}
+#lunbo .mui-slider-item img {
+	border-radius: 12px;
+	box-shadow:
+		0 1px 1px hsl(0deg 0% 0% / 0.075),
+		0 2px 2px hsl(0deg 0% 0% / 0.075),
+		0 4px 4px hsl(0deg 0% 0% / 0.075),
+		0 8px 8px hsl(0deg 0% 0% / 0.075),
+		0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+#lunbo .mui-slider-indicator {
+	position: relative;
+}
+#lunbo .mui-slider-indicator .mui-indicator {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	margin-left: 3px;
+	margin-right: 3px;
+	background-color: #a0cde5;
+}
+#lunbo .mui-slider-indicator .mui-active {
+	width: 11px;
+	border-radius: 10px;
+	background-color: #1383c2;
+}
+
+
+/* 搜索框 */
+.sousuo{
+	text-align: center;
+}
+.sousuo .mui-search {
+	margin-top: 10px;
+	width: 100%;
+	height: 53px;
+	display: inline-block;
+}
+.sousuo .mui-search input {
+	width: 90%;
+	height: 40px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.sousuo .mui-input-clear {
+	background-color: white;
+	border-radius: 25px;
+	vertical-align: middle;
+}
+.sousuo .mui-search .mui-placeholder {
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	margin-left: 45px;
+	font-size: 14px;
+}
+.sousuo .mui-search .mui-placeholder::before {
+	
+}
+.sousuo .mui-input-clear{
+	padding: 10px;
+}
+.sousuo .mui-search .mui-placeholder .mui-icon {
+	float: right;
+	line-height: 40px;
+	margin-right: 11%;
+}
+div.mui-input-row.mui-search.mui-active::before{
+	margin-left: 83.5%;
+}
+
+
+.user-info{
+	padding: 0 15px;
+	height: 32px;
+	line-height: 32px;
+}
+.user-info .mui-icon{
+	margin-top: 1px;
+	padding: 3px 4px;
+	background-color: #fff;
+	border-radius: 50%;
+	font-size: 17px;
+}
+.user-info .icon{
+	color: #4e85f0 !important;
+}
+.user-info span{
+	padding-left: 5px;
+	padding-right: 3px;
+	font-size: 13px;
+	font-weight: 550;
+}
+.user-info .diqu,
+.user-info .xuanke{
+	padding: 0;
+	color: gray;
+	font-weight: normal;
+}
+.user-info a{
+	float: right;
+}
+.user-info a button{
+	font-size: 12.5px;
+	border-radius: 15px;
+	border: none;
+	background-color: #023dc8;
+	color: white;
+}
+.user-info a button .mui-icon{
+	background-color: unset;
+	color: white;
+	font-size: 13.5px;
+}
+
+
+
+#container{
+	width: 100%; 
+	height: 150px; 
+	margin: 10px auto;
+	padding: 0 20px;
+}
+rect.highcharts-point{
+	display: none;
+}
+
+
+.xuanze{
+	margin-top: -55px;
+}
+.xuanze ul{
+	padding: 0 15px;
+	width: 100%;
+	font-size: 16px;
+}
+.xuanze ul li{
+	float: left;
+	width: calc(100% / 3);
+	list-style: none;
+}
+.xuanze ul li a{
+	color: black;
+}
+.xuanze ul li a span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.xuanze ul li a .count{
+	font-weight: bold;
+	font-size: 19px;
+}
+.xuanze ul li a .dibu{
+	margin: auto;
+	height: 5px;
+	width: 20px;
+	background-color: #fff;
+}
+.xuanze ul li a .style1{
+	background-color: orange;
+}
+.xuanze ul li a .style2{
+	background-color: plum;
+}
+.xuanze ul li a .style3{
+	background-color: aqua;
+}
+
+
+.moni{
+	text-align: center;
+}
+.moni button{
+	margin: 15px 0;
+	padding: 10px 25px;
+	width: 90%;
+	background-color: #4e85f0;
+	color: white;
+	border-radius: 15px;
+	border: none;
+}
+.moni .left{
+	text-align: center;
+}
+.moni .right{
+	text-align: left;
+	padding-left: 45px;
+	
+}
+.moni .left .mui-icon {
+	margin-top: 7px;
+	float: left;
+	height: 100%;
+}
+
+.moni .right p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.moni .right .small{
+	font-size: 13px;
+}
+
+
+
+/* 底部导航栏 */
+#navbar {
+	width: 100%;
+	height: 63px;
+	border-color: white;
+	background-color: white;
+	z-index: 10000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+#navbar .mui-table-view-cell {
+	width: 20%;
+	padding: 0;
+	padding-top: 4px;
+	border: none;
+}
+#navbar .mui-table-view-cell .mui-media-body {
+	font-size: 12px;
+	margin: 0;
+	margin-top: 1px;
+	font-weight: normal;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell > a:not(.mui-btn){
+	padding: 0;
+}
+#navbar .mui-table-view-cell .mui-icon {
+	font-size: 32px;
+}
+#navbar div.mui-media-body.active{
+	color: #1383c2 !important;
+}
